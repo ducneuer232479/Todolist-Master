@@ -35,6 +35,8 @@ const showPopup = function () {
 };
 
 const hidePopup = function () {
+  btnComplete.className = "add";
+  deleteInputValue();
   overlay.classList.remove("active");
   formAddEdit.classList.remove("active");
   form.style.transform = "scale(0)";
