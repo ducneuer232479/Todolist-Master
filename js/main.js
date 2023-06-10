@@ -15,17 +15,17 @@ let dataUser = [
 btnComplete.classList.add("add");
 
 const renderData = function (user) {
-  const newRowUser = document.createElement("tr");
   const newInfo = `
-    <td class="id">${user.id}</td>
-    <td class="title">${user.mail}</td>
-    <td class="des">${user.des}</td>
-    <td class="author">${user.author}</td>
-    <td class="edit"><i class="fas fa-edit"></i></td>
-    <td class="trash"><i class="fas fa-trash-alt"></i></td>
+    <tr>
+      <td class="id">${user.id}</td>
+      <td class="title">${user.mail}</td>
+      <td class="des">${user.des}</td>
+      <td class="author">${user.author}</td>
+      <td class="edit"><i class="fas fa-edit"></i></td>
+      <td class="trash"><i class="fas fa-trash-alt"></i></td>
+    </tr>
     `;
-  newRowUser.innerHTML = newInfo;
-  tbody.insertAdjacentElement("beforeend", newRowUser);
+  tbody.insertAdjacentHTML("beforeend", newInfo);
 };
 
 const showPopup = function () {
