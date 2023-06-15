@@ -1291,6 +1291,10 @@ nav .nav__tools {
     padding: 0 5px;
   }
 }
+.main .table {
+  position: relative;
+  height: 65vh;
+}
 .main table {
   width: 100%;
   border-collapse: collapse;
@@ -1353,10 +1357,10 @@ nav .nav__tools {
   width: 20%;
 }
 .main table thead tr th:nth-child(3) {
-  width: 40%;
+  width: 30%;
 }
 .main table thead tr th:nth-child(4) {
-  width: 10%;
+  width: 20%;
 }
 .main table thead tr th:nth-child(5) {
   width: 5%;
@@ -1466,4 +1470,42 @@ nav .nav__tools {
   margin-top: 15rem;
   width: 100%;
   padding: 2rem 2rem 4rem 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.pagination-container {
+  width: calc(100% - 2rem);
+  display: flex;
+  align-items: center;
+  /* position: absolute;
+  bottom: 0; */
+  padding: 1rem 0;
+  justify-content: center;
+  box-shadow: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.pagination-number,
+.pagination-button {
+  font-size: 1.8rem;
+  background-color: transparent;
+  border: none;
+  margin: 0.5rem;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.3rem;
+  transition: all 0.25s;
+}
+
+.pagination-number:hover,
+.pagination-button:not(.disabled):hover,
+.pagination-number.active {
+  background: #ec4d3d;
+  color: #fff;
 }
