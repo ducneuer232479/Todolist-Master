@@ -139,7 +139,6 @@ class App {
     } else {
       url = `${this.#urlServer}`;
     }
-    console.log(url);
     axios
       .get(
         `${url}${fieldSort}&_page=${pageNumber}&_limit=${this.#paginationLimit}`
