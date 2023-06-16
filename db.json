@@ -3,19 +3,19 @@
     {
       "id": 1,
       "mail": "tuanduc@gmail.com",
-      "des": "a absdsds",
+      "des": "Front End",
       "author": "Tuấn Đức"
     },
     {
       "id": 2,
       "mail": "phuongmit@gmail.com",
-      "des": "c absdsdssds",
+      "des": "Shopify",
       "author": "Nguyễn Phương"
     },
     {
       "id": 3,
       "mail": "linhbui@gmail.com",
-      "des": "b wesds",
+      "des": "React",
       "author": "Linh Bùi"
     },
     {
@@ -39,11 +39,11 @@
     {
       "id": 7,
       "mail": "tuanduc@gmail.com",
-      "des": "a zx",
+      "des": "Tester",
       "author": "Tuấn Đức"
     },
     {
-      "mail": "ds",
+      "mail": "tuanduc@gmail.com",
       "des": "sad",
       "author": "sds",
       "id": 8
@@ -73,13 +73,13 @@
       "id": 12
     },
     {
-      "mail": "áds",
+      "mail": "tuanduc@gmail.com",
       "des": "ssaasd",
       "author": "ád",
       "id": 13
     },
     {
-      "mail": "dssd",
+      "mail": "tuanduc@gmail.com",
       "des": "sds",
       "author": "Tuấn Đức",
       "id": 14
